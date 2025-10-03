@@ -82,7 +82,6 @@ header nav ul a {
     background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
     background-size: 100%;
 }
 
@@ -114,7 +113,7 @@ header nav ul a {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
-        height: fit-content;
+
     }
 }
 
@@ -156,7 +155,6 @@ header nav ul a {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/3-IMG-20250322-WA0035.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: fit-content;
     background-size: 100%;
 }
 
@@ -171,10 +169,6 @@ header nav ul a {
 .section-two-hero h2 span {
     font-size: 5.5rem;
 
-}
-
-.about-us {
-    height: 70vh;
 }
 
 .about-us h2 {
@@ -214,7 +208,6 @@ header nav ul a {
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/3-IMG-20250322-WA0035.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        height: 70vh;
         background-size: 100%;
     }
 
