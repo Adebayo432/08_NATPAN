@@ -82,7 +82,7 @@ header nav ul a {
     background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    width: 100%;
 }
 
 .section-one div {
@@ -120,7 +120,6 @@ header nav ul a {
 .section-one div {
     color: white;
     text-align: center;
-    padding: 15%;
     text-transform: uppercase;
     margin: 0px;
 }
