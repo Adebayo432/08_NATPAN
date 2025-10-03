@@ -2,7 +2,6 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-bottom: 1000px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -69,7 +68,7 @@ header nav ul a {
     header nav {
         background-color: white;
         display: flex;
-        padding-inline: 20px;
+        padding-inline: 10px;
         justify-content: space-around;
 
 
@@ -379,8 +378,7 @@ header nav ul a {
     }
 
     .section-four img {
-        width: 30%;
-        height: 25vh;
+        width: 20%;
         padding-top: 5px;
     }
 
@@ -494,13 +492,145 @@ header nav ul a {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
+        height: 50vh;
     }
 
     .section-five-hero P {
         color: white;
         text-align: center;
         font-family: "oswald";
-        font-size: 2.3rem;
+        font-size: 2rem;
         opacity: 0.8;
 
     }
+}
+
+/* section six */
+.section-six {
+    background-color: #b72826;
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+
+}
+
+.section-six div {
+    width: 50%;
+}
+
+.section-six img {
+    width: 100%;
+}
+
+.section-six h1 {
+    font-family: "oswald";
+    color: white;
+    font-size: 3rem;
+}
+
+.section-six p {
+    color: white;
+    font-size: 2rem;
+    font-family: "oswald";
+}
+
+.section-six button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+}
+
+@media (width <600px) {
+    .section-six {
+        background-color: #b72826;
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .section-six div {
+        width: 100%;
+    }
+
+    .section-six h1 {
+        font-family: "oswald";
+        color: white;
+        font-size: 2rem;
+    }
+
+    .section-six p {
+        color: white;
+        font-size: 1rem;
+        font-family: "oswald";
+    }
+
+    .section-six button {
+        padding: 7px 15px;
+        border: none;
+        font-size: 0.8rem;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+}
+
+/* section seven */
+.section-seven {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-seven div {
+    width: fit-content;
+}
+
+.section-seven h3 {
+    color: #b72826;
+    font-family: "oswald";
+    font-weight: 400;
+    font-size: 1rem;
+    text-spacing-trim: 2;
+}
+
+.section-seven span {
+    color: black;
+}
+
+.section-seven p {
+    color: #757575;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (width<600px) {
+    .section-seven {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+}
+
+/* footer */
+.footer {
+    background-color: #b72826;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    font-family: "oswald";
+    padding-block: 1px;
+}
+
+@media (width< 600px) {
+    .footer {
+        font-size: 0.6rem;
+        padding-block: 1px;
+    }
+
+}
