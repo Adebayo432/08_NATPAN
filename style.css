@@ -50,6 +50,32 @@ header nav ul a {
     color: black;
 }
 
+@media (width <=600px) {
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+
+    header nav img {
+        width: 10%;
+    }
+
+    header nav {
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 20px;
+        flex-wrap: wrap;
+
+    }
+}
+
+
 /* section one  */
 .section-one {
     background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
