@@ -55,23 +55,23 @@ header nav ul a {
     header nav ul {
         list-style: none;
         display: flex;
-        gap: 5px;
+        gap: 10px;
         flex-wrap: wrap;
         align-items: center;
         text-transform: uppercase;
-        font-size: 8px;
+        font-size: 15px;
     }
 
     header nav img {
-        width: 10%;
+        width: 15%;
     }
 
     header nav {
         background-color: white;
         display: flex;
-        justify-content: space-between;
         padding-inline: 20px;
-        flex-wrap: wrap;
+        justify-content: space-around;
+
 
     }
 }
@@ -79,10 +79,11 @@ header nav ul a {
 
 /* section one  */
 .section-one {
-    background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    background-size: 100%;
 }
 
 .section-one div {
@@ -109,10 +110,11 @@ header nav ul a {
     }
 
     .section-one {
-        background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
+        background-color: white;
 
     }
 }
@@ -250,8 +252,8 @@ header nav ul a {
     .about-us p {
         color: #757575;
         font-family: 'Times New Roman', Times, serif;
-        font-size: 15px;
-        line-height: 1;
+        font-size: 17px;
+        line-height: 2;
     }
 
     .section-two div button {
@@ -264,4 +266,241 @@ header nav ul a {
         border: none;
         cursor: pointer;
         font-weight: bold;
+    }
+}
+
+.section-three {
+    width: 40%;
+
+}
+
+.section-three h2 {
+    margin: 5px 0px;
+    padding: 0px;
+    color: #b72826;
+    font-family: "oswald";
+}
+
+.section-three h1 {
+    font-family: 'oswald';
+    margin: 0px;
+}
+
+@media (width <=600px) {
+    .section-three h1 {
+        font-family: 'oswald';
+        margin: 0px;
+        line-height: 1;
+    }
+
+    .section-three {
+        width: 100%;
+
+    }
+}
+
+/* .section-four */
+.section-four-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+.section-four {
+    display: flex;
+    gap: 10px;
+    width: 33.3%;
+}
+
+.section-four img {
+    width: 30%;
+    height: 18vh;
+    padding-top: 5px;
+}
+
+.section-four h2 {
+    color: #b72826;
+    font-family: "oswald";
+    font-size: 20px;
+}
+
+.section-four p {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(74, 74, 74);
+}
+
+.section-four-container button {
+    padding: 10px 25px;
+    text-spacing-trim: 5px;
+    color: white;
+    background-color: #c85b59;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+@media (width <600px) {
+    .section-four-container button {
+        padding: 5px 10px;
+        text-spacing-trim: 5px;
+        color: white;
+        background-color: #b72826;
+        font-size: 12px;
+        border-radius: 5px;
+        border: none;
+        width: 20%;
+        cursor: pointer;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .section-four-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+
+    }
+
+    .section-four {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid #b72826;
+    }
+
+    .section-four img {
+        width: 30%;
+        height: 25vh;
+        padding-top: 5px;
+    }
+
+    .section-four h2 {
+        color: #b72826;
+        font-family: "oswald";
+        font-size: 20px;
+    }
+
+    .section-four p {
+        font-family: "Times New Roman", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+
+}
+
+/* section five */
+.section-five {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.section-five div {
+    width: 48%;
+}
+
+.section-five h2 {
+    font-family: "oswald";
+    font-size: 20px;
+    color: #b72826;
+}
+
+.section-five h1 {
+    font-family: "oswald";
+    font-size: 2.3rem;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.section-five ul {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.section-five span {
+    font-weight: 300;
+    color: #5a5a5a;
+}
+
+.section-five button {
+    padding: 10px 20px;
+    text-spacing-trim: 5px;
+    color: white;
+    background-color: #c85b59;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.section-five-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/4-IMG-20250322-WA0034.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh;
+}
+
+.section-five-hero P {
+    color: white;
+    text-align: center;
+    font-family: "oswald";
+    font-size: 7rem;
+    opacity: 0.8;
+}
+
+@media (width <600px) {
+    .section-five {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 5px;
+    }
+
+    .section-five div {
+        width: 100%;
+    }
+
+    .section-five h2 {
+        font-family: "oswald";
+        font-size: 15px;
+        color: #b72826;
+    }
+
+    .section-five h1 {
+        font-family: "oswald";
+        font-size: 1.5rem;
+        line-height: 1.2;
+        color: #333333;
+    }
+
+    .section-five-hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/4-IMG-20250322-WA0034.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .section-five-hero P {
+        color: white;
+        text-align: center;
+        font-family: "oswald";
+        font-size: 2.3rem;
+        opacity: 0.8;
+
     }
