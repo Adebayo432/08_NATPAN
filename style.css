@@ -23,7 +23,7 @@ header div {
 }
 
 header nav img {
-    width: 15%;
+    width: 7%;
 }
 
 header nav {
@@ -55,21 +55,47 @@ header nav ul a {
     background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 80vh;
     background-size: 100%;
-    background-color: white;
 }
 
 .section-one div {
     color: white;
     text-align: center;
-    padding: 12%;
+    padding: 13%;
     text-transform: uppercase;
 }
 
+
 .section-one div h1 {
-    font-size: 25px;
+    font-size: 3.5rem;
     font-weight: bold;
+    opacity: .8.5;
+    text-shadow: black 0.9 0.7;
+}
+
+@media (width <=800px) {
+    .section-one div h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        opacity: .8.5;
+        text-shadow: black 0.9 0.7;
+    }
+
+    .section-one {
+        background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: 100%;
+    }
+}
+
+.section-one div {
+    color: white;
+    text-align: center;
+    padding: 8%;
+    text-transform: uppercase;
 }
 
 .section-one div button {
