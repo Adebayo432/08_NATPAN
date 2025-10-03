@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 1000px;
+    width: 100%;
+}
+
+/* header section */
+.header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header div {
+    background-color: #b72826;
+    padding: 7px 70px;
+    color: white;
+    font-size: 10px;
+}
+
+header nav img {
+    width: 15%;
+}
+
+header nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 60px;
+    flex-wrap: wrap;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section one  */
+.section-one {
+    background: linear-gradient(rgba(157, 153, 153, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: 100%;
+    background-color: white;
+}
+
+.section-one div {
+    color: white;
+    text-align: center;
+    padding: 12%;
+    text-transform: uppercase;
+}
+
+.section-one div h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-one div button {
+    padding: 10px 25px;
+    text-spacing-trim: 5px;
+    color: gray;
+    font-size: 12px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.section-one div button:hover {
+    background-color: #b72826;
+    color: white;
+}
