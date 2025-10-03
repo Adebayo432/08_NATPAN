@@ -4,6 +4,7 @@ body {
     font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 1000px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* header section */
@@ -100,7 +101,7 @@ header nav ul a {
     text-shadow: black 0.9 0.7;
 }
 
-@media (width <=800px) {
+@media (width <=600px) {
     .section-one div h1 {
         font-size: 1.5rem;
         font-weight: bold;
@@ -120,8 +121,9 @@ header nav ul a {
 .section-one div {
     color: white;
     text-align: center;
-    padding: 8%;
+    padding: 15%;
     text-transform: uppercase;
+    margin: 0px;
 }
 
 .section-one div button {
@@ -139,3 +141,138 @@ header nav ul a {
     background-color: #b72826;
     color: white;
 }
+
+/* section-two */
+.section-two {
+    display: flex;
+    gap: 5%;
+}
+
+.section-two div {
+    width: 47%;
+}
+
+.section-two-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/3-IMG-20250322-WA0035.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 100%;
+}
+
+.section-two-hero h2 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 35%;
+    opacity: 0.8;
+}
+
+.section-two-hero h2 span {
+    font-size: 5.5rem;
+
+}
+
+.about-us {
+    height: 70vh;
+}
+
+.about-us h2 {
+    color: #b72826;
+    font-size: 1.1em;
+}
+
+.about-us h1 {
+    font-size: 1.8rem;
+    color: #333333;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "oswald";
+}
+
+.about-us p {
+    color: #757575;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.section-two div button {
+    padding: 10px 25px;
+    text-spacing-trim: 5px;
+    color: white;
+    background-color: #c85b59;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (width <=600px) {
+    .section-two-hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/3-IMG-20250322-WA0035.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-size: 100%;
+    }
+
+    .section-two {
+        display: flex;
+        gap: 5%;
+        flex-direction: column;
+    }
+
+    .section-two div {
+        width: 100%;
+    }
+
+    .section-two-hero h2 {
+        color: white;
+        text-align: center;
+        font-size: 0.6rem;
+        padding-top: 40%;
+        opacity: 0.8;
+    }
+
+    .section-two-hero h2 span {
+        font-size: 2.5rem;
+
+    }
+
+    .about-us {
+        height: 70vh;
+    }
+
+    .about-us h2 {
+        color: #b72826;
+        font-size: 1rem;
+    }
+
+    .about-us h1 {
+        font-size: 1.2rem;
+        color: #333333;
+        text-transform: uppercase;
+        line-height: 1;
+        font-family: "oswald";
+    }
+
+    .about-us p {
+        color: #757575;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    .section-two div button {
+        padding: 10px 20px;
+        text-spacing-trim: 5px;
+        color: white;
+        background-color: #c85b59;
+        font-size: 12px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
