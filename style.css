@@ -49,6 +49,8 @@ header nav ul {
     align-items: center;
     text-transform: uppercase;
     font-size: 12px;
+    font-family: "oswald";
+    font-weight: bold;
 }
 
 header nav ul a {
@@ -62,9 +64,19 @@ header nav ul a {
     cursor: pointer;
     font-size: 15px;
     display: none;
+    transition: 0.4s ease-in-out;
 }
 
-@media (width <=600px) {
+.header ul a:hover {
+    color: #b72826;
+
+}
+
+.header ul a:after {
+    color: #b72826;
+}
+
+@media (width <=800px) {
     header nav ul {
         list-style: none;
         display: flex;
@@ -132,7 +144,7 @@ header nav ul a {
     text-shadow: black 0.9 0.7;
 }
 
-@media (width <=600px) {
+@media (width <=800px) {
     .section-one div h1 {
         font-size: 1.5rem;
         font-weight: bold;
@@ -235,7 +247,7 @@ header nav ul a {
     font-weight: bold;
 }
 
-@media (width <=600px) {
+@media (width <=800px) {
     .section-two-hero {
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/3-IMG-20250322-WA0035.jpg);
         background-position: center;
@@ -317,7 +329,7 @@ header nav ul a {
     margin: 0px;
 }
 
-@media (width <=600px) {
+@media (width <=800px) {
     .section-three h1 {
         font-family: 'oswald';
         margin: 0px;
@@ -377,7 +389,7 @@ header nav ul a {
     margin-left: 45%;
 }
 
-@media (width <600px) {
+@media (width <800px) {
     .section-four-container button {
         padding: 5px 10px;
         text-spacing-trim: 5px;
@@ -410,7 +422,8 @@ header nav ul a {
     }
 
     .section-four img {
-        width: 20%;
+        width: 15%;
+        height: 13vh;
         padding-top: 5px;
     }
 
@@ -494,7 +507,7 @@ header nav ul a {
     opacity: 0.8;
 }
 
-@media (width <600px) {
+@media (width <800px) {
     .section-five {
         display: flex;
         flex-direction: column;
@@ -575,7 +588,7 @@ header nav ul a {
     background-color: white;
 }
 
-@media (width <600px) {
+@media (width <800px) {
     .section-six {
         background-color: #b72826;
         display: flex;
@@ -639,7 +652,7 @@ header nav ul a {
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media (width<600px) {
+@media (width<800px) {
     .section-seven {
         display: flex;
         justify-content: space-between;
@@ -665,4 +678,177 @@ header nav ul a {
         padding-block: 1px;
     }
 
+}
+
+/* about */
+.about-section-one {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+.about-section-one div {
+    color: white;
+    text-align: center;
+    padding: 13%;
+    text-transform: uppercase;
+}
+
+
+.about-section-one div h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    opacity: .8.5;
+    text-shadow: black 0.9 0.7;
+}
+
+
+.about-section-one div h1 span {
+    color: #b72826;
+}
+
+@media (width <=800px) {
+    .about-section-one div h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        opacity: .8.5;
+        text-shadow: black 0.9 0.7;
+    }
+
+    .about-section-one {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/2-african-people-harvesting-vegetables_23-2151441311.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: white;
+
+    }
+}
+
+.about-section-one div {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+/* about section two */
+.left-about-section-two {
+    display: flex;
+    gap: 2%;
+}
+
+.left-about-section-two div {
+    width: 49%;
+}
+
+.left-about-section-two div h3 {
+    color: #b72826;
+    font-family: "oswald";
+}
+
+.left-about-section-two div h1 {
+    font-family: "oswald";
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #333333;
+}
+
+.left-about-section-two div p {
+    color: #5a5a5a;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.left-about-section-two div h4 {
+    color: #b72826;
+    padding-inline: 30%;
+    font-family: "oswald";
+    font-size: 1.4rem;
+}
+
+.right-about-section-two div {
+    width: 100%;
+}
+
+.right-about-section-two div p {
+    line-height: 2.5;
+}
+
+.left-about-section-two div ul {
+    color: #5a5a5a;
+    line-height: 2;
+}
+
+@media (width <800px) {
+    .left-about-section-two {
+        display: flex;
+        gap: 2%;
+        flex-direction: column;
+    }
+
+    .left-about-section-two div {
+        width: 100%;
+    }
+
+    .left-about-section-two div h3 {
+        color: #b72826;
+        font-family: "oswald";
+    }
+
+    .left-about-section-two div h1 {
+        font-family: "oswald";
+        font-size: 1.5rem;
+        line-height: 1;
+        color: #333333;
+    }
+
+    .left-about-section-two div p {
+        color: #5a5a5a;
+        line-height: 2;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0px;
+    }
+
+    .left-about-section-two div h4 {
+        color: #b72826;
+        padding-inline: 35%;
+        font-family: "oswald";
+        font-size: 1rem;
+    }
+
+    .right-about-section-two div {
+        width: 100%;
+    }
+
+    .right-about-section-two div p {
+        line-height: 2.5;
+    }
+
+    .left-about-section-two div ul {
+        color: #5a5a5a;
+        line-height: 2;
+    }
+
+}
+
+/* .about-section-three */
+.about-section-three {
+    background-color: #a29f9f;
+    font-size: 1.5rem;
+    padding-block: 12%;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+@media (width< 800px) {
+    .about-section-three {
+        font-size: 1rem;
+        padding-block: 8%;
+
+    }
 }
