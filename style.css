@@ -852,3 +852,161 @@ header nav ul a {
 
     }
 }
+
+.contact-section-three {
+    display: flex;
+    margin-block: 3rem;
+    font-family: "oswald";
+}
+
+.contact-section-three h3 {
+    color: #b72826;
+}
+
+.contact-section-three div {
+    width: 50%;
+}
+
+.right-contact-section {
+    border: 2px solid #b72826;
+    background-color: inherit;
+    border-radius: 10px;
+    padding-inline: 2.5%;
+    height: fit-content;
+
+}
+
+.message {
+    width: 100%;
+    margin-block: 5%;
+    height: 20vh;
+    align-items: start;
+    display: block;
+    border: 1px solid rgb(233, 230, 230);
+    background-color: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+}
+
+.text {
+    border: 1px solid rgb(233, 230, 230);
+    background-color: inherit;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-block: 5%;
+    padding: 0px;
+    height: 7vh;
+    padding-left: 5px;
+    display: block;
+}
+
+.right-contact-section button {
+    background-color: #b72826;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.right-contact-section button:hover {
+    background-color: #6d1716;
+    color: white;
+}
+
+.left-section-contact div {
+    width: 45%;
+    padding-inline: 8px;
+    gap: 5px;
+
+}
+
+.left-section-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (width <800px) {
+    .contact-section-three {
+        display: flex;
+        flex-direction: column;
+        margin-block: 3rem;
+        font-family: "oswald";
+    }
+
+
+    .contact-section-three h3 {
+        color: #b72826;
+    }
+
+    .contact-section-three div {
+        width: 90%;
+    }
+
+    .right-contact-section {
+        border: 2px solid #b72826;
+        background-color: inherit;
+        border-radius: 10px;
+        margin-top: 1rem;
+        height: fit-content;
+
+    }
+
+    .message {
+        width: 90%;
+        margin-block: 5%;
+        height: 20vh;
+        align-items: start;
+        display: block;
+        border: 1px solid rgb(233, 230, 230);
+        background-color: inherit;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 5px;
+    }
+
+    .text {
+        border: 1px solid rgb(233, 230, 230);
+        background-color: inherit;
+        width: 90%;
+        font-family: 'Times New Roman', Times, serif;
+        margin-block: 5%;
+        padding: 0px;
+        height: 7vh;
+        padding-left: 5px;
+        display: block;
+    }
+
+    .right-contact-section button {
+        background-color: #b72826;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        font-size: 13px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        border-radius: 3px;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+
+    .right-contact-section button:hover {
+        background-color: #6d1716;
+        color: white;
+    }
+
+    .left-section-contact div {
+        width: 100%;
+        border-bottom: 1px dashed #b72826;
+        gap: 5px;
+
+    }
+
+    .left-section-contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
