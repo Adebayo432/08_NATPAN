@@ -157,7 +157,8 @@ header nav ul a {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
-        background-color: white;
+        height: fit-content;
+        background-color: inherit;
 
     }
 }
