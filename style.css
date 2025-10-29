@@ -126,6 +126,8 @@ header nav ul a {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
     background-size: 100%;
 }
 
@@ -157,9 +159,8 @@ header nav ul a {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
-        height: fit-content;
-        background-color: inherit;
-
+        margin: 0px;
+        padding: 0px;
     }
 }
 
