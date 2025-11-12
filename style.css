@@ -1011,4 +1011,9 @@ header nav ul a {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .map {
+        width: 100%;
+        height: 250px;
+    }
 }
